@@ -14,18 +14,21 @@ This task primarily focuses on addressing the issue of declining generalization 
 
 #### Kardiyak Görüntü Yeniden Oluşturma Görevi
 
-Düşün ki bir oyun oynuyoruz. Bu oyunda, kalp resimlerini toplayıp bir bilgisayarı eğitiyoruz. 
+Bu görev, farklı hastanelerde çekilen kalp MR görüntülerini iyileştirmekle ilgili. Düşünün ki doktorlar kalp MR'ı çekiyorlar, ama bazen bu görüntüler çok net olmuyor.
+Sizden istenen şey şu:
 
-Bilgisayarımızı bazı hastanelerden topladığımız resimlerle eğitiyoruz. Ama sonra, bilgisayarın hiç görmediği hastanelerden gelen resimleri de tanımasını istiyoruz. Bu biraz zor, çünkü her hastane resimleri farklı şekilde çekebilir.
+Bir yapay zeka modeli eğitmeniz gerekiyor
+Bu model, bir hastanede çekilmiş kalp görüntülerini net hale getirmeyi öğrenmeli
+Sonra (ve işin zor kısmı budur) bu model, hiç görmediği hastanelerdeki görüntüleri de düzgün iyileştirebilmeli
 
-İşte görev:
-- Önce bilgisayarı bazı hastanelerden gelen resimlerle eğit
-- Sonra bu bilgisayarın, hiç görmediği iki yeni hastaneden gelen resimlerde nasıl çalıştığını göreceğiz (bu deneme aşaması)
-- En son, bilgisayarın beş yeni hastaneden gelen resimlerde nasıl çalıştığına bakacağız (final sınav gibi)
+Neden zor? Çünkü her hastanenin cihazları farklı, görüntüleme yöntemleri farklı. Yani A hastanesinde öğrendikleriniz, B hastanesinde işe yaramayabilir.
+Test şöyle yapılacak:
 
-Bu biraz, bir arkadaşının ağzını kapatıp konuşmasını anlamaya çalışmak gibi. Önce bazı kişilerin kapalı ağızla konuşmalarını dinleyip öğreniyorsun, sonra hiç duymadığın kişilerin kapalı ağızla konuşmalarını anlamaya çalışıyorsun.
+Size bazı hastanelerden eğitim verileri verilecek
+Sonra modeliniz hiç görmediği 2 yeni hastanenin verilerinde test edilecek (doğrulama aşaması)
+En son aşamada ise toplam 5 yeni hastanenin görüntülerinde test edilecek
 
-Buradaki asıl zorluk: Bilgisayarın sadece belli hastanelerin çekim stilini öğrenmesi değil, genel olarak kalp resimlerini anlamayı öğrenmesi.
+Bu görevin özü: "Bir hastanede öğrendiklerini başka hastanelerde de uygulayabilen" bir yapay zeka oluşturmak. Tıpkı bir doktorun farklı hastanelerde aynı kalitede çalışabilmesi gibi.
 
 ## Görev 2: Çoklu Hastalık Değerlendirmesi
 
