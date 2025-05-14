@@ -10,7 +10,7 @@ Bu repository, kardiyak MRI yeniden oluşturma görevleri için oluşturulmuş m
 
 This task primarily focuses on addressing the issue of declining generalization performance between multiple centers. Participants are required to train the reconstruction model on the training dataset and achieve good multi-contrast cardiac image reconstruction results on the validation and test datasets. It is important to note that for this task, we will include data from two entirely new centers in the validation set (not present in the training set), and the test set will contain data from five entirely new centers (not present in the training set, including the two centers that appeared in the validation set).
 
-### Basitleştirilmiş Açıklama (Türkçe)
+### Mala Anlatır Gibi
 
 #### Kardiyak Görüntü Yeniden Oluşturma Görevi
 
@@ -35,7 +35,7 @@ Buradaki asıl zorluk: Bilgisayarın sadece belli hastanelerin çekim stilini ö
 
 This task primarily focuses on evaluating the reliability of the model in applications involving different cardiovascular diseases. Participants are required to train the reconstruction model on the training dataset and achieve good performance in disease applications on the validation and test datasets. It is important to note that for this task, we will include data for two diseases that have not appeared in the training set in the validation set, and the test set will contain data for five diseases that have not appeared in the training set (including the two diseases that appeared in the validation set). Please note that to ensure the model training process is not biased by the type of disease, we will not disclose the disease information for each data point in the training and validation dataset.
 
-### Basitleştirilmiş Açıklama (Türkçe)
+### Mala Anlatır Gibi
 
 #### Kalp Hastalıkları Tanıma Görevi
 
