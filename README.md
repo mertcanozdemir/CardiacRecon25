@@ -102,6 +102,38 @@ Bu şuna benziyor: Sadece büyük elmalar görerek elmaları tanımayı öğrend
 
 Buradaki asıl zorluk: Bilgisayarın yaşa bağlı anatomik farklılıklar olduğu halde kardiyak görüntüleri doğru şekilde işleyebilmesi.
 
+## Değerlendirme Metrikleri ve Sıralama
+
+### Orijinal Tanım (İngilizce)
+
+**Metrics & Ranking**
+
+**Metrics:**
+For the four tasks, we will use SSIM, PSNR, and NMSE as objective evaluation metrics, with SSIM being the primary metric for ranking. During the test phase, we will conduct an additional round of scoring (1 to 5 points) by experienced radiologists for the top 5 teams in each task, and subsequent evaluations will be based on these subjective scores. The scoring will cover three aspects: image quality, image artifacts, and clinical utility. The final ranking will be determined by the average of the objective and subjective score rankings, and this average ranking will serve as the final competition ranking. Please note that during the validation phase, we will only conduct objective scoring and will not involve radiologist scoring.
+
+**Ranking methods:**
+1. When evaluating SSIM, we will narrow down the assessment field-of-view to the region where the heart is located, to avoid interference from the background area.
+2. Regarding the sampling patterns and accelerations, all paired data are assigned equal weight when calculating the final ranking metrics.
+3. Participating teams are required to submit docker containers and process all the cases in the test set on our server. For the cases without valid output, we will assign it to the lowest value of metric.
+
+### Mala Anlatır Gibi (MAG)
+
+#### Değerlendirme Nasıl Yapılacak?
+
+**Kullanılacak Ölçümler:**
+- Bilimsel ölçümler: SSIM (ana ölçüt), PSNR ve NMSE kullanılacak
+- SSIM nedir? İki resmin ne kadar benzer olduğunu ölçen bir değer (1: tamamen aynı, 0: hiç benzerlik yok)
+- Test aşamasında, her görevde en iyi 5 takımın sonuçları ayrıca deneyimli radyologlar tarafından puanlanacak (1-5 arası)
+- Radyologlar üç şeye bakacak: görüntü kalitesi, görüntüdeki bozulmalar ve klinik kullanışlılık
+- Son sıralama, bilimsel ölçümlerdeki sıra ile radyolog değerlendirmesindeki sıranın ortalaması olacak
+- Doğrulama aşamasında sadece bilimsel ölçümler kullanılacak (radyolog değerlendirmesi olmayacak)
+
+**Sıralama Yöntemleri:**
+1. SSIM hesaplanırken sadece kalbin bulunduğu bölge değerlendirilecek (arka plan dahil edilmeyecek)
+2. Farklı örnekleme desenleri ve hızlandırmalar içeren tüm eşleştirilmiş veriler, son sıralama metriklerinde eşit ağırlığa sahip olacak
+3. Katılımcı takımların docker container'ları göndermesi ve test setindeki tüm vakaları bizim sunucumuzda işlemesi gerekiyor
+4. Geçerli çıktı üretilmeyen vakalar için en düşük ölçüm değeri atanacak
+
 ## Kurulum ve Kullanım
 
 (Bu bölümde projenin nasıl kurulacağı ve kullanılacağı hakkında bilgiler eklenecektir.)
