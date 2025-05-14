@@ -14,24 +14,15 @@ This task primarily focuses on addressing the issue of declining generalization 
 
 #### Kardiyak Görüntü Yeniden Oluşturma Görevi
 
-Temel Açıklama
+Bu görev, farklı hastanelerde çekilen kalp MR görüntülerini iyileştirmekle ilgili. Düşünün ki doktorlar kalp MR'ı çekiyorlar, ama bazen bu görüntüler çok net olmuyor. Sizden istenen şey şu:
 
-Bu görev, farklı hastanelerde çekilen kalp MR görüntülerini iyileştirmekle ilgilidir. Doktorların çektiği kalp MR görüntüleri bazen yeterince net olmayabilir, ve bu görüntülerin kalitesini artırmak için bir yapay zeka modeli geliştirilmesi gerekiyor.
-Görev Detayları
+Bir yapay zeka modeli eğitmeniz gerekiyor Bu model, bir hastanede çekilmiş kalp görüntülerini net hale getirmeyi öğrenmeli Sonra (ve işin zor kısmı budur) bu model, hiç görmediği hastanelerdeki görüntüleri de düzgün iyileştirebilmeli
 
-- Amaç: Bir yapay zeka modeli eğiterek kalp MR görüntülerinin yeniden oluşturulmasını sağlamak
-- Zorluk: Modelin eğitildiği hastanelerin dışındaki hastanelerden gelen görüntülerde de iyi performans göstermesi gerekiyor
-- Problem: Her hastanenin cihazları ve görüntüleme protokolleri farklı olduğundan, bir hastanede öğrenilen bilginin diğer hastanelere genelleştirilmesi zordur
+Neden zor? Çünkü her hastanenin cihazları farklı, görüntüleme yöntemleri farklı. Yani A hastanesinde öğrendikleriniz, B hastanesinde işe yaramayabilir. Test şöyle yapılacak:
 
-Test Süreci
+Size bazı hastanelerden eğitim verileri verilecek Sonra modeliniz hiç görmediği 2 yeni hastanenin verilerinde test edilecek (doğrulama aşaması) En son aşamada ise toplam 5 yeni hastanenin görüntülerinde test edilecek
 
-- Eğitim Aşaması: Model belirli hastanelerden gelen verilerle eğitilecek
-- Doğrulama Aşaması: Model, eğitim setinde olmayan 2 yeni hastaneden gelen verilerle test edilecek
-- Test Aşaması: Model, toplam 5 yeni hastaneden (doğrulama setindeki 2 hastane dahil) gelen verilerle final değerlendirmeye tabi tutulacak
-
-Başarı Kriteri
-
-Başarı, modelin hiç görmediği hastanelerden gelen kalp görüntülerini ne kadar iyi yeniden oluşturabildiğine bağlıdır. Tıpkı deneyimli bir doktorun farklı hastanelerde aynı kalitede hizmet verebilmesi gibi, modelinizin de farklı merkezlerdeki görüntülere uyum sağlayabilmesi beklenmektedir.
+Bu görevin özü: "Bir hastanede öğrendiklerini başka hastanelerde de uygulayabilen" bir yapay zeka oluşturmak. Tıpkı bir doktorun farklı hastanelerde aynı kalitede çalışabilmesi gibi.
 
 ## Görev 2: Çoklu Hastalık Değerlendirmesi
 
