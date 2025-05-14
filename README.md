@@ -15,6 +15,7 @@ This task primarily focuses on addressing the issue of declining generalization 
 #### Kardiyak Görüntü Yeniden Oluşturma Görevi
 
 Temel Açıklama
+
 Bu görev, farklı hastanelerde çekilen kalp MR görüntülerini iyileştirmekle ilgilidir. Doktorların çektiği kalp MR görüntüleri bazen yeterince net olmayabilir, ve bu görüntülerin kalitesini artırmak için bir yapay zeka modeli geliştirilmesi gerekiyor.
 Görev Detayları
 
@@ -29,6 +30,7 @@ Test Süreci
 - Test Aşaması: Model, toplam 5 yeni hastaneden (doğrulama setindeki 2 hastane dahil) gelen verilerle final değerlendirmeye tabi tutulacak
 
 Başarı Kriteri
+
 Başarı, modelin hiç görmediği hastanelerden gelen kalp görüntülerini ne kadar iyi yeniden oluşturabildiğine bağlıdır. Tıpkı deneyimli bir doktorun farklı hastanelerde aynı kalitede hizmet verebilmesi gibi, modelinizin de farklı merkezlerdeki görüntülere uyum sağlayabilmesi beklenmektedir.
 
 ## Görev 2: Çoklu Hastalık Değerlendirmesi
