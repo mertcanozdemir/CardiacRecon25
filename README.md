@@ -2,7 +2,7 @@
 
 Bu repository, kardiyak MRI yeniden oluşturma görevleri için oluşturulmuş modelleri içermektedir. Bu challenge, farklı merkezlerden ve farklı hastalıklardan elde edilen kardiyak MRI görüntülerinin yeniden oluşturulması üzerine odaklanmaktadır.
 
-## Görev 1: Çoklu Merkez Genellemesi
+## Görev 1: Çoklu Merkez Genellemesi (bunu seçebiliriz)
 
 ### Orijinal Görev Tanımı (İngilizce)
 
