@@ -12,7 +12,7 @@ from helper_functions import EarlyStopping
 NUM_EPOCHS = 100
 BATCH_SIZE = 1
 
-device = torch.device("mps" if torch.mps.is_available() else "cpu")
+device = torch.device("cuda" if torch.mps.is_available() else "cpu")
 
 
 def show_results(undersampled, output, ground_truth):
