@@ -1,0 +1,55 @@
+DATASET STATISTICS
+==================================================
+
+Dataset Name: MultiCoil
+Type: Other
+Total Size: 440.3 GB
+Total Files: 189,586
+Centers: 6
+Patients: 57
+
+FILE TYPE DISTRIBUTION
+------------------------------
+  .nii: 87,185 files ( 46.0%) - 5.6 GB
+  .png: 87,175 files ( 46.0%) - 3.6 GB
+  .mat: 13,842 files (  7.3%) - 431.0 GB
+  .csv:  1,384 files (  0.7%) - 328.3 KB
+
+CENTER DISTRIBUTION
+------------------------------
+   Center001: 61,580 files ( 32.5%)
+   Center002: 15,595 files (  8.2%)
+   Center003: 13,379 files (  7.1%)
+   Center005: 41,148 files ( 21.7%)
+   Center006: 48,726 files ( 25.7%)
+   Center007:  9,158 files (  4.8%)
+
+PATIENT DISTRIBUTION
+------------------------------
+    P001:  9,384 files (  4.9%)
+    P002:  7,225 files (  3.8%)
+    P003:  6,875 files (  3.6%)
+    P004:  5,726 files (  3.0%)
+    P005:  6,159 files (  3.2%)
+    P006:  7,385 files (  3.9%)
+    P007:  5,818 files (  3.1%)
+    P008:  5,828 files (  3.1%)
+    P009:  5,825 files (  3.1%)
+    P010:  6,534 files (  3.4%)
+    P011:  5,698 files (  3.0%)
+    P012:  2,985 files (  1.6%)
+    P013:  5,678 files (  3.0%)
+    P014:  4,246 files (  2.2%)
+    P015:  4,892 files (  2.6%)
+    P016:  2,469 files (  1.3%)
+    P017:  5,316 files (  2.8%)
+    P018:  3,331 files (  1.8%)
+    P019:  5,198 files (  2.7%)
+    P020:  6,303 files (  3.3%)
+... and 37 more patients
+
+DATA CATEGORY DISTRIBUTION
+------------------------------
+      ImageShow: 174,357 files ( 92.0%)
+   Mask_TaskAll: 12,456 files (  6.6%)
+     FullSample:  2,773 files (  1.5%)
