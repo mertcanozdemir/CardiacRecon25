@@ -1,0 +1,17 @@
+{
+  "total_files": 150,
+  "valid_files": 135,
+  "invalid_files": 15,
+  "error_types": {
+    "Unable to synchronously open file (file signature not found)": 15
+  },
+  "file_types": {
+    ".mat": 150
+  },
+  "directories": {
+    "TrainingSet": 150
+  },
+  "start_time": "2025-07-29 17:03:09.885319",
+  "end_time": "2025-07-29 17:03:18.277071",
+  "duration": 8.381552696228027
+}

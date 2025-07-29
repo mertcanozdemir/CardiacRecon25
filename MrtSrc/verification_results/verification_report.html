@@ -1,0 +1,122 @@
+
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>CMRxRecon Dataset Verification Report</title>
+                <style>
+                    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; }
+                    h1, h2, h3 { color: #2c3e50; }
+                    .container { display: flex; flex-wrap: wrap; }
+                    .section { margin: 10px; padding: 15px; background-color: #f9f9f9; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+                    .full-width { width: 100%; }
+                    .half-width { width: calc(50% - 50px); }
+                    table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+                    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                    th { background-color: #f2f2f2; }
+                    tr:nth-child(even) { background-color: #f9f9f9; }
+                    .valid { color: #4CAF50; }
+                    .invalid { color: #F44336; }
+                    .summary { display: flex; justify-content: space-around; margin: 20px 0; }
+                    .summary-item { text-align: center; padding: 10px; }
+                    .summary-value { font-size: 24px; font-weight: bold; }
+                    img { max-width: 100%; height: auto; border-radius: 5px; margin-top: 10px; }
+                    code { background-color: #f8f8f8; padding: 2px 5px; border-radius: 3px; font-family: monospace; }
+                    .helper { background-color: #e9f7fe; padding: 15px; border-left: 5px solid #4CAF50; margin: 20px 0; }
+                </style>
+            </head>
+            <body>
+                <h1>CMRxRecon Dataset Verification Report</h1>
+                <p>Report generated on: 2025-07-29 17:03:18.277071</p>
+                
+                <div class="summary">
+                    <div class="summary-item">
+                        <div class="summary-value">150</div>
+                        <div>Total Files</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-value valid">135</div>
+                        <div>Valid Files</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-value invalid">15</div>
+                        <div>Invalid Files</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-value">8.4s</div>
+                        <div>Duration</div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="section full-width">
+                        <h2>Verification Overview</h2>
+                        <p>Dataset root: <code>F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood</code></p>
+                        <p>Verification level: <code>basic</code></p>
+                        <p>File types checked: <code>.mat</code></p>
+                        
+                        <h3>Visualizations</h3>
+                        <div class="container">
+                            <div class="half-width">
+                                <img src="visualizations/validation_pie.png" alt="Validation Results">
+                            </div>
+            
+                            <div class="half-width">
+                                <img src="visualizations/error_types.png" alt="Error Types">
+                            </div>
+                
+                            <div class="half-width">
+                                <img src="visualizations/directory_counts.png" alt="Directory Counts">
+                            </div>
+                
+                            <div class="half-width">
+                                <img src="visualizations/file_type_counts.png" alt="File Type Counts">
+                            </div>
+                
+                        </div>
+                    </div>
+                    
+                    <div class="section full-width">
+                        <h2>Common Error Types</h2>
+                        <table>
+                            <tr>
+                                <th>Error</th>
+                                <th>Count</th>
+                                <th>Percentage</th>
+                            </tr>
+            
+                            <tr>
+                                <td>Unable to synchronously open file (file signature not found)</td>
+                                <td>15</td>
+                                <td>100.0%</td>
+                            </tr>
+                
+                        </table>
+                    </div>
+                    
+                    <div class="section full-width">
+                        <h2>How to Handle Invalid Files</h2>
+                        <p>A list of problematic files has been saved to <code>problematic_files.txt</code>. You can use this list to exclude these files from your analysis.</p>
+                        
+                        <div class="helper">
+                            <h3>Helper Code for Skipping Invalid Files</h3>
+                            <p>Here's a simple function to check if a file is in the problematic files list:</p>
+                            <pre><code>def is_valid_file(file_path, problematic_files_path):
+    with open(problematic_files_path, 'r') as f:
+        problematic_files = [line.strip() for line in f]
+    
+    return file_path not in problematic_files
+
+# Example usage:
+if is_valid_file(file_path, 'problematic_files.txt'):
+    # Process the file
+    pass
+else:
+    # Skip the file
+    print(f"Skipping problematic file: {file_path}")
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </body>
+            </html>
+            

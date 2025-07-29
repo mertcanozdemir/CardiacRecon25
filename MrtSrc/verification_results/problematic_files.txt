@@ -1,0 +1,15 @@
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P002\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P005\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P006\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P013\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P015\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P017\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P019\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P024\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P026\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P027\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P029\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P031\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P032\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P033\blackblood.mat
+F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood\TrainingSet\FullSample\Center006\Siemens_30T_Prisma\P034\blackblood.mat

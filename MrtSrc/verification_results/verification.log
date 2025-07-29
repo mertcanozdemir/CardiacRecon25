@@ -1,0 +1,18 @@
+2025-07-29 16:28:17,280 - CMRVerifier - INFO - CMRVerifier initialized. Data root: F:\CMRxRecon2025\ChallengeData
+2025-07-29 16:28:17,280 - CMRVerifier - INFO - Output directory: verification_results
+2025-07-29 16:28:17,281 - CMRVerifier - INFO - Verification level: basic
+2025-07-29 16:28:17,281 - CMRVerifier - INFO - Starting verification with level: basic
+2025-07-29 16:28:17,281 - CMRVerifier - INFO - Scanning directory for files: F:\CMRxRecon2025\ChallengeData
+2025-07-29 16:29:43,802 - CMRVerifier - INFO - Found 13842 files
+2025-07-29 17:03:09,885 - CMRVerifier - INFO - CMRVerifier initialized. Data root: F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood
+2025-07-29 17:03:09,885 - CMRVerifier - INFO - Output directory: verification_results
+2025-07-29 17:03:09,895 - CMRVerifier - INFO - Verification level: basic
+2025-07-29 17:03:09,895 - CMRVerifier - INFO - Starting verification with level: basic
+2025-07-29 17:03:09,895 - CMRVerifier - INFO - Scanning directory for files: F:\CMRxRecon2025\ChallengeData\MultiCoil\BlackBlood
+2025-07-29 17:03:11,256 - CMRVerifier - INFO - Found 150 files
+2025-07-29 17:03:18,277 - CMRVerifier - INFO - Verification complete. Valid: 135, Invalid: 15
+2025-07-29 17:03:18,277 - CMRVerifier - INFO - Total verification time: 8.38 seconds
+2025-07-29 17:03:18,277 - CMRVerifier - INFO - Saving verification results...
+2025-07-29 17:03:19,531 - CMRVerifier - INFO - HTML report saved to verification_results\verification_report.html
+2025-07-29 17:03:19,531 - CMRVerifier - INFO - Results saved to verification_results
+2025-07-29 17:03:19,537 - CMRVerifier - INFO - Helper code saved to verification_results\file_handling_helper.py
